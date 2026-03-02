@@ -1,16 +1,11 @@
 const leia = require('readline-sync');
 
-let n1 = 5;
-let n2 = 6;
-let n3 = 7;
-let n4 = 8;
-
-let exer1 = (n1 * n2);
-let exer2 = (n3 * n4);
-let diferenca = exer1 - exer2;
+let n1 = leia.questionFloat("Digite o valor de n1: ");
+let n2 = leia.questionFloat("Digite o valor de n2: ");
+let n3 = leia.questionFloat("Digite o valor de n3: ");
+let n4 = leia.questionFloat("Digite o valor de n4: ");
 
 
-console.log("exer1 (n1*n2)");
-console.log("exer2 (n3*n4)");
-    
-console.log("Diferença: " + diferenca);
+let diferenca = (n1 * n2) - (n3 * n4);
+
+console.log("\nDiferença: " + diferenca.toFixed(1));

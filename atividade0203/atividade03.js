@@ -1,11 +1,10 @@
 const leia = require('readline-sync');
 
-let salariobruto = 2000.00;
-let adicionalnoturno = 500.00;
-let horasextras = 100.00;
-let descontos= 200.00;
-let salarioLiquido = 2800.00;
+let salarioBruto = leia.questionFloat("Digite o Salario Bruto: "); 
+let adicionalNoturno = leia.questionFloat("Digite o Adicional Noturno: ");
+let horasExtras = leia.questionFloat("Digite as Horas Extras: ");
+let descontos = leia.questionFloat("Digite os Descontos: ");
 
-let salarioliquido = salariobruto + adicionalnoturno + (horasextras * 5) - descontos;
+let salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 
-console.log("Salário Líquido: " + salarioliquido.toFixed(2));
+console.log("Salário Líquido: " + salarioLiquido.toFixed(2));
