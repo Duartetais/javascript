@@ -1,6 +1,27 @@
 {
-  "type": "module",
   "dependencies": {
+    "@types/node": "^25.3.5",
     "readline-sync": "^1.4.10"
+  },
+  "name": "atividades",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duartetais/javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duartetais/javascript/issues"
+  },
+  "homepage": "https://github.com/Duartetais/javascript#readme",
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
   }
 }
