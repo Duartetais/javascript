@@ -3,7 +3,7 @@ import readlinesync = require("readline-sync");
 
 let numeros = new Set();
 
-console.log("Digite 10 números inteiros não repetidos:");
+console.log("Digite 5 números inteiros não repetidos:");
 
 
 while (numeros.size < 5
